@@ -3,11 +3,11 @@
 #include <time.h>
 #include <errno.h>
 
-const int WIDTH = 150;
-const int HEIGHT = 100;
+const int WIDTH = 100;
+const int HEIGHT = 50;
 
-int GAME[100][150] = {0};
-int BUFFER[100][150] = {0};
+int GAME[50][100] = {0};
+int BUFFER[50][100] = {0};
 int GEN = 0;
 bool LOOP = false;
 
